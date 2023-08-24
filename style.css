@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: white;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+}
+.navbar-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-menu button{
+    font-size: 18px;
+    background-color: #983564;
+    color: white;
+    width: 160px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.navbar-menu button:hover{
+    background-color: #78093d;
+}
+.navbar-menu .a-1{
+    text-decoration: none;
+    font-size: 19px;
+    color: palevioletred;
+    margin-left: 50px;
+}
+.navbar-menu .title{
+    text-decoration: none;
+    font-size: 55px;
+    color: palevioletred;
+    margin-left: 200px;
+}
+.navbar-menu span{
+    color: red;
+}
+.navbar-menu ul{
+    display: flex;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.navbar-menu ul li{
+    list-style-type: none;
+    margin-left: 50px;
+}
+.navbar-menu ul li a{
+    text-decoration: none;
+    color: palevioletred;
+}
+
+/* hero area code start  */
+
+.hero-area{
+    background-image: url(image/images\ \(8\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+.hero-area-wrapper{
+    text-align: center;
+    padding-top: 140px;
+}
+.hero-area-wrapper h4{
+    font-size: 25px;
+    color: white;
+}
+.hero-area-wrapper h1{
+    font-size: 100px;
+    color: white;
+}
+.hero-area-wrapper button{
+    font-size: 20px;
+    background-color: #854675;
+    padding: 17px 35px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+/* first section code here  */
+
+.first-section{
+   display: flex;
+   gap: 50px;
+   margin-top: 130px;
+   margin-left: 50px;
+}
+.first-section-img{
+    width: 700px;
+}
+.first-section-img img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.first-section-text h2{
+    font-size: 60px;
+    font-weight: 400;
+    color: #29533f;
+    margin-bottom: 20px;
+}
+.first-section-text p{
+    font-size: 18px;
+    color: #29533f;
+    line-height: 1.7rem;
+}
+.first-section-text button{
+    font-size: 18px;
+    margin-top: 30px;
+    padding: 18px 30px;
+    border-radius: 10px;
+    background-color: #29533f;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.first-section-text button:hover{
+    background-color: black;
+}
+
+/* second section code start  */
+
+#section-2{
+    background-color: #29533f;
+    margin-top: 80px;
+    padding: 80px 0;
+}
+.second-section{
+    width: 1200px;
+    margin: auto;
+}
+.second-section h2{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 300;
+    color: white;
+}
+.second-section h4{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 70px;
+}
+.second-section-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.second-section-img{
+    width: 260px;
+    background-color: #147846bf;
+    position: relative;
+    overflow: hidden;
+}
+.second-section-img:hover img{
+    transform: scale(1.2);
+}
+.second-section-img img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    transition: 2s linear;
+}
+.second-section-img h3{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+.second-section-img h5{
+    text-align: center;
+    font-size: 20px;
+    color: #854675;
+    padding-bottom: 30px;
+}
+
+/* third section code start  */
+
+#section-3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.467), rgba(0, 0, 0, 0.49)), url(image/background5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+}
+.third-section{
+    width: 1300px;
+    margin: auto;
+    padding: 60px 0;
+}
+.third-section .sec-3-h2{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 70px; 
+}
+.third-section-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 70px;
+}
+.third-section-text{
+    text-align: center;
+    padding: 0 50px;
+    font-size: 23px;
+    line-height: 1.8rem;
+    color: #d2bbb7;
+}
+.third-section-text i{
+    font-size: 50px;
+    color: rgb(64, 176, 191);
+    margin-bottom: 20px; 
+}
+.third-section-text .sec-3-h4{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px; 
+}
+
+/* fourth section code start  */
+
+#section-4{
+    background-image: linear-gradient(#012b2e, rgba(0, 0, 0, 0.504)), url(image/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+}
+.fourth-section{
+    text-align: center;
+    padding-top: 150px;
+}
+.fourth-section .sec-4-h4{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 50px;
+}
+.fourth-section .sec-4-h2{
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 60px;
+}
+.fourth-section button{
+    font-size: 40px;
+    color: rgb(70, 55, 55);
+    padding: 30px 50px;
+    border-radius: 80px;
+    background-color: white;
+    transition: 0.5s;   
+}
+.fourth-section button:hover{
+    background-color: rgb(233, 214, 214);
+}
+
+
+footer{
+    background-color: white;
+    padding: 40px 0;
+}
+footer p{
+    text-align: center;
+    font-size: 20px;
+    color: #012b2e;
+}
